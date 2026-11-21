@@ -1,0 +1,20 @@
+﻿{
+  "name": "uno-blender-mcp",
+  "version": "1.0.0",
+  "description": "U-NO High-Level Blender MCP Server (Headless Studio, 360 Turntable, & bpy Automation)",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "uno-blender-mcp": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": ["blender", "mcp", "3d", "automation", "uno"],
+  "author": "U-NO AI Studio (Arun & ALISE)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^3.25.0"
+  }
+}
